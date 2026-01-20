@@ -93,7 +93,7 @@ export const EXPERIENCE: ExperienceItem[] = [
 export const PROJECTS: ProjectItem[] = [
   {
     title: "Asset Management",
-    description: "Laravel Based Asset management system with lifecycle tracking, assignments, QR scanning,User Management,Inventory Management and reports.",
+    description: "Laravel Based Asset  management system with lifecycle tracking, assignments, QR scanning,User Management,Inventory Management and reports.",
     techStack: ["Laravel", "PHP", "MySQL", ],
     githubUrl: "https://github.com/mateenism",
     demoUrl: "#",
