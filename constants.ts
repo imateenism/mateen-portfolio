@@ -31,6 +31,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { name: "Laravel", icon: Server },
       { name: "PHP", icon: Code2 },
+      { name: "Python", icon: Code2 },
       { name: "MySQL", icon: Database },
       { name: "HTML5", icon: Layout },
     ]
@@ -91,25 +92,25 @@ export const EXPERIENCE: ExperienceItem[] = [
 
 export const PROJECTS: ProjectItem[] = [
   {
-    title: "Corporate Portal",
-    description: "Internal dashboard for managing employee roles and workflows. Streamlined administrative tasks with efficient data handling.",
-    techStack: ["Laravel", "PHP", "MySQL", "RBAC"],
+    title: "Asset Management",
+    description: "Laravel Based Asset management system with lifecycle tracking, assignments, QR scanning,User Management,Inventory Management and reports.",
+    techStack: ["Laravel", "PHP", "MySQL", ],
     githubUrl: "https://github.com/mateenism",
     demoUrl: "#",
-    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=800"
+    imageUrl: "https://unsplash.com/photos/woman-typing-on-laptop-with-email-open-zunkloizgWY"
   },
   {
-    title: "E-Commerce API",
-    description: "Scalable RESTful APIs designed for product inventory and order management, ensuring high performance and security.",
-    techStack: ["PHP", "REST API", "MySQL", "JSON"],
+    title: "AeoLogic's Website",
+    description: "Designed and developed Aeologic’s official website with responsive, performance-focused architecture.",
+    techStack: ["PHP",  "MySQL","HTML", "JSON","Laravel"],
     githubUrl: "https://github.com/mateenism",
-    demoUrl: "#",
+    demoUrl: "https://www.aeologic.com/",
     imageUrl: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Data Analytics",
-    description: "Python-based data analysis scripts for processing complex datasets to extract actionable insights.",
-    techStack: ["Python", "Pandas", "Data Analysis"],
+    title: "Event Management System",
+    description: "Developed an event management system enabling scheduling, registrations, attendee tracking, and automated reporting.",
+    techStack: ["Laravel", "HTML", "PhP","MySQL"],
     githubUrl: "https://github.com/mateenism",
     demoUrl: "#",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
@@ -123,16 +124,18 @@ export const EDUCATION: EducationItem[] = [
     period: "May 2023 - Aug 2024",
     location: "Online / Remote"
   },
-  {
-    institution: "Shri Venkateshwara University - India",
-    degree: "Bachelor of Technology - BTech (IT)",
-    period: "2020 - 2024",
-    location: "Uttar Pradesh, India"
-  },
+
   {
     institution: "Mahatma Jyotiba Phule Rohilkhand University (MJPRU)",
     degree: "Bachelor of Commerce - BCom",
     period: "Jul 2016 - Jun 2019",
-    location: "Bareilly, India"
+    location: "Bareilly, U.P."
+  },
+
+  {
+    institution: "M.A. College",
+    degree: "Senior Secondary School",
+    period: "May 2014 - Jun 2016",
+    location: "Amroha, U.P."
   }
 ];
